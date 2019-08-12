@@ -7,22 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCC1262522FD10F400C29C64 /* CellHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1262322FD10F400C29C64 /* CellHits.swift */; };
+		BCC1262622FD10F400C29C64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1262422FD10F400C29C64 /* ContentView.swift */; };
+		BCC1262A22FD110900C29C64 /* CellHits.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1262822FD110900C29C64 /* CellHits.swift */; };
+		BCC1262B22FD110900C29C64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1262922FD110900C29C64 /* ContentView.swift */; };
+		BCC1262D22FD29DE00C29C64 /* TriMode59cellTonnetzIOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC1262C22FD29DE00C29C64 /* TriMode59cellTonnetzIOS.swift */; };
 		BCE9D17E22FD00F300CA9517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D17D22FD00F300CA9517 /* AppDelegate.swift */; };
-		BCE9D18022FD00F300CA9517 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D17F22FD00F300CA9517 /* ContentView.swift */; };
 		BCE9D18222FD00F400CA9517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9D18122FD00F400CA9517 /* Assets.xcassets */; };
 		BCE9D18522FD00F400CA9517 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9D18422FD00F400CA9517 /* Preview Assets.xcassets */; };
 		BCE9D18822FD00F400CA9517 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE9D18622FD00F400CA9517 /* Main.storyboard */; };
+		BCE9D19722FD020800CA9517 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D19622FD020800CA9517 /* AppDelegate.swift */; };
+		BCE9D19922FD020800CA9517 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D19822FD020800CA9517 /* SceneDelegate.swift */; };
+		BCE9D19D22FD020C00CA9517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9D19C22FD020C00CA9517 /* Assets.xcassets */; };
+		BCE9D1A022FD020C00CA9517 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE9D19F22FD020C00CA9517 /* Preview Assets.xcassets */; };
+		BCE9D1A322FD020C00CA9517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE9D1A122FD020C00CA9517 /* LaunchScreen.storyboard */; };
+		BCE9D1AB22FD05CD00CA9517 /* TriMode59cellTonnetzMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D1A922FD05CC00CA9517 /* TriMode59cellTonnetzMac.swift */; };
+		BCE9D1AC22FD05CD00CA9517 /* TonnetzNSView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D1AA22FD05CD00CA9517 /* TonnetzNSView.swift */; };
+		BCE9D1B022FD05E400CA9517 /* TonnetzUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE9D1AE22FD05E400CA9517 /* TonnetzUIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BCC1261522FD108100C29C64 /* CellHits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHits.swift; sourceTree = "<group>"; };
+		BCC1261622FD108100C29C64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCC1261822FD108100C29C64 /* CellHitsFlat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellHitsFlat.swift; sourceTree = "<group>"; };
+		BCC1261B22FD108100C29C64 /* Tonnetz 59 cell trimodal.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Tonnetz 59 cell trimodal.pcvd"; sourceTree = "<group>"; };
+		BCC1261C22FD108100C29C64 /* Tonnetz 59 cell trimodal flipped.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Tonnetz 59 cell trimodal flipped.pcvd"; sourceTree = "<group>"; };
+		BCC1261D22FD108100C29C64 /* Tonnetz 143 cell.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Tonnetz 143 cell.pcvd"; sourceTree = "<group>"; };
+		BCC1261E22FD108100C29C64 /* Tonnetz 143 cell trimodal.pcvd */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = "Tonnetz 143 cell trimodal.pcvd"; sourceTree = "<group>"; };
+		BCC1262022FD108100C29C64 /* MusicGenModules.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = MusicGenModules.rtf; sourceTree = "<group>"; };
+		BCC1262122FD108100C29C64 /* Tonnetz cell sizing data.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Tonnetz cell sizing data.rtf"; sourceTree = "<group>"; };
+		BCC1262322FD10F400C29C64 /* CellHits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellHits.swift; sourceTree = "<group>"; };
+		BCC1262422FD10F400C29C64 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCC1262822FD110900C29C64 /* CellHits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellHits.swift; sourceTree = "<group>"; };
+		BCC1262922FD110900C29C64 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BCC1262C22FD29DE00C29C64 /* TriMode59cellTonnetzIOS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriMode59cellTonnetzIOS.swift; sourceTree = "<group>"; };
 		BCE9D17A22FD00F300CA9517 /* Tonnetz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tonnetz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE9D17D22FD00F300CA9517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCE9D17F22FD00F300CA9517 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BCE9D18122FD00F400CA9517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCE9D18422FD00F400CA9517 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BCE9D18722FD00F400CA9517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCE9D18922FD00F400CA9517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE9D18A22FD00F400CA9517 /* Tonnetz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tonnetz.entitlements; sourceTree = "<group>"; };
+		BCE9D19422FD020800CA9517 /* Tonnetz-iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tonnetz-iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9D19622FD020800CA9517 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCE9D19822FD020800CA9517 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCE9D19C22FD020C00CA9517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCE9D19F22FD020C00CA9517 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCE9D1A222FD020C00CA9517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCE9D1A422FD020C00CA9517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCE9D1A922FD05CC00CA9517 /* TriMode59cellTonnetzMac.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TriMode59cellTonnetzMac.swift; sourceTree = "<group>"; };
+		BCE9D1AA22FD05CD00CA9517 /* TonnetzNSView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TonnetzNSView.swift; sourceTree = "<group>"; };
+		BCE9D1AE22FD05E400CA9517 /* TonnetzUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TonnetzUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,13 +68,98 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCE9D19122FD020800CA9517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCC1261322FD108100C29C64 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1261422FD108100C29C64 /* Source */,
+				BCC1261922FD108100C29C64 /* Supporting */,
+				BCC1261722FD108100C29C64 /* zmisc */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BCC1261422FD108100C29C64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1261522FD108100C29C64 /* CellHits.swift */,
+				BCC1261622FD108100C29C64 /* ContentView.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BCC1261722FD108100C29C64 /* zmisc */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1261822FD108100C29C64 /* CellHitsFlat.swift */,
+			);
+			path = zmisc;
+			sourceTree = "<group>";
+		};
+		BCC1261922FD108100C29C64 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1261A22FD108100C29C64 /* PaintCode */,
+				BCC1261F22FD108100C29C64 /* Notes */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		BCC1261A22FD108100C29C64 /* PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1261B22FD108100C29C64 /* Tonnetz 59 cell trimodal.pcvd */,
+				BCC1261C22FD108100C29C64 /* Tonnetz 59 cell trimodal flipped.pcvd */,
+				BCC1261D22FD108100C29C64 /* Tonnetz 143 cell.pcvd */,
+				BCC1261E22FD108100C29C64 /* Tonnetz 143 cell trimodal.pcvd */,
+			);
+			path = PaintCode;
+			sourceTree = "<group>";
+		};
+		BCC1261F22FD108100C29C64 /* Notes */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1262022FD108100C29C64 /* MusicGenModules.rtf */,
+				BCC1262122FD108100C29C64 /* Tonnetz cell sizing data.rtf */,
+			);
+			path = Notes;
+			sourceTree = "<group>";
+		};
+		BCC1262222FD10F400C29C64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1262322FD10F400C29C64 /* CellHits.swift */,
+				BCC1262422FD10F400C29C64 /* ContentView.swift */,
+			);
+			name = Source;
+			path = Common/Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		BCC1262722FD110900C29C64 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1262822FD110900C29C64 /* CellHits.swift */,
+				BCC1262922FD110900C29C64 /* ContentView.swift */,
+			);
+			name = Source;
+			path = Common/Source;
+			sourceTree = SOURCE_ROOT;
+		};
 		BCE9D17122FD00F200CA9517 = {
 			isa = PBXGroup;
 			children = (
 				BCE9D17C22FD00F300CA9517 /* Tonnetz */,
+				BCE9D19522FD020800CA9517 /* Tonnetz-iPad */,
+				BCC1261322FD108100C29C64 /* Common */,
 				BCE9D17B22FD00F300CA9517 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,6 +168,7 @@
 			isa = PBXGroup;
 			children = (
 				BCE9D17A22FD00F300CA9517 /* Tonnetz.app */,
+				BCE9D19422FD020800CA9517 /* Tonnetz-iPad.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +176,10 @@
 		BCE9D17C22FD00F300CA9517 /* Tonnetz */ = {
 			isa = PBXGroup;
 			children = (
+				BCC1262222FD10F400C29C64 /* Source */,
+				BCE9D1AA22FD05CD00CA9517 /* TonnetzNSView.swift */,
+				BCE9D1A922FD05CC00CA9517 /* TriMode59cellTonnetzMac.swift */,
 				BCE9D17D22FD00F300CA9517 /* AppDelegate.swift */,
-				BCE9D17F22FD00F300CA9517 /* ContentView.swift */,
 				BCE9D18122FD00F400CA9517 /* Assets.xcassets */,
 				BCE9D18622FD00F400CA9517 /* Main.storyboard */,
 				BCE9D18922FD00F400CA9517 /* Info.plist */,
@@ -70,6 +193,30 @@
 			isa = PBXGroup;
 			children = (
 				BCE9D18422FD00F400CA9517 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BCE9D19522FD020800CA9517 /* Tonnetz-iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BCC1262722FD110900C29C64 /* Source */,
+				BCE9D1AE22FD05E400CA9517 /* TonnetzUIView.swift */,
+				BCC1262C22FD29DE00C29C64 /* TriMode59cellTonnetzIOS.swift */,
+				BCE9D19622FD020800CA9517 /* AppDelegate.swift */,
+				BCE9D19822FD020800CA9517 /* SceneDelegate.swift */,
+				BCE9D19C22FD020C00CA9517 /* Assets.xcassets */,
+				BCE9D1A122FD020C00CA9517 /* LaunchScreen.storyboard */,
+				BCE9D1A422FD020C00CA9517 /* Info.plist */,
+				BCE9D19E22FD020C00CA9517 /* Preview Content */,
+			);
+			path = "Tonnetz-iPad";
+			sourceTree = "<group>";
+		};
+		BCE9D19E22FD020C00CA9517 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9D19F22FD020C00CA9517 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -94,6 +241,23 @@
 			productReference = BCE9D17A22FD00F300CA9517 /* Tonnetz.app */;
 			productType = "com.apple.product-type.application";
 		};
+		BCE9D19322FD020800CA9517 /* Tonnetz-iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE9D1A522FD020C00CA9517 /* Build configuration list for PBXNativeTarget "Tonnetz-iPad" */;
+			buildPhases = (
+				BCE9D19022FD020800CA9517 /* Sources */,
+				BCE9D19122FD020800CA9517 /* Frameworks */,
+				BCE9D19222FD020800CA9517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tonnetz-iPad";
+			productName = "Tonnetz-iPad";
+			productReference = BCE9D19422FD020800CA9517 /* Tonnetz-iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -105,6 +269,9 @@
 				ORGANIZATIONNAME = "Thom Jordan";
 				TargetAttributes = {
 					BCE9D17922FD00F300CA9517 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					BCE9D19322FD020800CA9517 = {
 						CreatedOnToolsVersion = 11.0;
 					};
 				};
@@ -123,6 +290,7 @@
 			projectRoot = "";
 			targets = (
 				BCE9D17922FD00F300CA9517 /* Tonnetz */,
+				BCE9D19322FD020800CA9517 /* Tonnetz-iPad */,
 			);
 		};
 /* End PBXProject section */
@@ -138,6 +306,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BCE9D19222FD020800CA9517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9D1A322FD020C00CA9517 /* LaunchScreen.storyboard in Resources */,
+				BCE9D1A022FD020C00CA9517 /* Preview Assets.xcassets in Resources */,
+				BCE9D19D22FD020C00CA9517 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -145,8 +323,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE9D18022FD00F300CA9517 /* ContentView.swift in Sources */,
 				BCE9D17E22FD00F300CA9517 /* AppDelegate.swift in Sources */,
+				BCC1262622FD10F400C29C64 /* ContentView.swift in Sources */,
+				BCC1262522FD10F400C29C64 /* CellHits.swift in Sources */,
+				BCE9D1AB22FD05CD00CA9517 /* TriMode59cellTonnetzMac.swift in Sources */,
+				BCE9D1AC22FD05CD00CA9517 /* TonnetzNSView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE9D19022FD020800CA9517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9D19722FD020800CA9517 /* AppDelegate.swift in Sources */,
+				BCC1262D22FD29DE00C29C64 /* TriMode59cellTonnetzIOS.swift in Sources */,
+				BCE9D1B022FD05E400CA9517 /* TonnetzUIView.swift in Sources */,
+				BCC1262B22FD110900C29C64 /* ContentView.swift in Sources */,
+				BCE9D19922FD020800CA9517 /* SceneDelegate.swift in Sources */,
+				BCC1262A22FD110900C29C64 /* CellHits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +353,14 @@
 				BCE9D18722FD00F400CA9517 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE9D1A122FD020C00CA9517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9D1A222FD020C00CA9517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -321,6 +523,51 @@
 			};
 			name = Release;
 		};
+		BCE9D1A622FD020C00CA9517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Tonnetz-iPad/Preview\\ Content";
+				DEVELOPMENT_TEAM = LCWUE4FXKB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tonnetz-iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thomjordan.Tonnetz-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE9D1A722FD020C00CA9517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "Tonnetz-iPad/Preview\\ Content";
+				DEVELOPMENT_TEAM = LCWUE4FXKB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Tonnetz-iPad/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.thomjordan.Tonnetz-iPad";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -338,6 +585,15 @@
 			buildConfigurations = (
 				BCE9D18E22FD00F400CA9517 /* Debug */,
 				BCE9D18F22FD00F400CA9517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE9D1A522FD020C00CA9517 /* Build configuration list for PBXNativeTarget "Tonnetz-iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE9D1A622FD020C00CA9517 /* Debug */,
+				BCE9D1A722FD020C00CA9517 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

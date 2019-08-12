@@ -9,6 +9,7 @@
 import Cocoa
 import SwiftUI
 
+
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
@@ -16,15 +17,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        
         window = NSWindow(
-            contentRect: NSRect(x: 0, y: 0, width: 480, height: 300),
-            styleMask: [.titled, .closable, .miniaturizable, .resizable, .fullSizeContentView],
+            contentRect: NSRect(x: 0, y: 0, width: 1024, height: 748),
+            styleMask: [.titled, .closable, .miniaturizable],
             backing: .buffered, defer: false)
+        
         window.center()
+        
         window.setFrameAutosaveName("Main Window")
-
-        window.contentView = NSHostingView(rootView: ContentView())
+        
+        window.contentView = NSHostingView(rootView: tonnetzView59() )
 
         window.makeKeyAndOrderFront(nil)
     }
